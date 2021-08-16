@@ -1,5 +1,7 @@
 import React from "react";
 
 export default function App() {
-  return "Appabc123";
+  return (
+      <h1>hi</h1>
+    );
 }
