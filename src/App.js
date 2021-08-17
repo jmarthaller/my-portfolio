@@ -7,12 +7,12 @@ import { Contact } from "./components/Contact";
 
 export default function App() {
   return (
-    <div>
+    <main main className="text-gray-400 bg-gray-900 body-font">
         <NavBar />
         <About />
         <Projects />
         <Experience />
         <Contact />
-    </div>
+    </main>
     );
 }
