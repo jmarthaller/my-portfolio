@@ -5,6 +5,6 @@ import React from 'react';
 
 export const NavBar = () => {
     return (
-        <h1>Hi</h1>
+        <h1>Navbar located up here</h1>
     )
 }
