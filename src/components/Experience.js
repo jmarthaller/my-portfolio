@@ -2,6 +2,9 @@ import {  ChipIcon } from "@heroicons/react/solid";
 import React from "react";
 // import { projects } from "../data";
 
+
+// PLACEHOLDER FOR SKILLS SECTION
+
 export function Experience() {
   return (
     <section id="skills">
