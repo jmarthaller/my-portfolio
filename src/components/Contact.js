@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function Contact() {
+export function Contact() {
 
 
     const [name, setName] = useState("");
