@@ -8,12 +8,15 @@ export function About() {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm Jacob
             <br className="hidden lg:inline-block" />I love to build amazing
-            apps.
+            software
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+          I'm a Full Stack Software Engineer working primarily in JavaScript, React.js, and Ruby on Rails. 
+          I love writing software because it allows me to express myself  creatively while solving hard problems.
+          <br />
+          <br />
+          Before web development I worked in legal services, where I narrowly avoided becoming an attorney.
+          When I'm not progamming I'm usually writing on Medium, surfing, or cooking French haute cuisine (read: lots of butter).
           </p>
           <div className="flex justify-center">
             <a
@@ -30,9 +33,9 @@ export function About() {
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
-            className="object-cover object-center rounded"
-            alt="hero"
-            src="./coding.svg"
+            className="shadow object-cover object-center w-90 h-100 rounded-3xl filter brightness-75"
+            alt="profile-pic"
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Jacobjacob.jpg"
           />
         </div>
       </div>
