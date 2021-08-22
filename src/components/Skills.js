@@ -12,26 +12,24 @@ export function Skills() {
             <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
               Skills &amp; Technologies
             </h1>
-            <div className="flex flex-wrap -m-4">
-          {technologies.map((tech) => (
-            <a
-              key={tech.image}
-              className="sm:w-1/2 w-100 p-4">
-              <div className="flex relative">
-                <img
-                  alt="language-screenshot"
-                  className="absolute inset-0 w-full h-full object-cover h-48 w-full object-fill"
-                  src={tech.image}
-                />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
-                    {tech.name}
-                  </h1>
-                </div>
-              </div>
-            </a>
-          ))}
-        </div>
+            <div className="flex flex-wrap -m-4 mt-4">
+              {technologies.map((tech) => (
+                <a key={tech.image} className="w-40 p-4">
+                  <div className="flex relative">
+                    <img
+                      alt="language-screenshot"
+                      className="absolute inset-0 w-10 h-10 object-cover h-12 w-full object-fill"
+                      src={tech.image}
+                    />
+                    <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                      <h1 className="title-font text-lg font-medium text-white mb-3">
+                        {tech.name}
+                      </h1>
+                    </div>
+                  </div>
+                </a>
+              ))}
+            </div>
           </div>
         </div>
       </div>

@@ -17,7 +17,7 @@ export const technologies = [
   {
     name: "React",
     image:
-      "https://icongr.am/devicon/react-original.svg?size=50&color=9ca3af",
+      "https://icongr.am/simple/react.svg?size=50&color=9ca3af",
   },
   {
     name: "TypeScript",
@@ -55,8 +55,19 @@ export const technologies = [
       "https://icongr.am/devicon/docker-plain.svg?size=50&color=9ca3af",
   },
   {
-    name: "GraphQL",
+    name: "MongoDB",
     image:
-      "https://icongr.am/simple/apollographql.svg?size=50&color=9ca3af",
+      "https://icongr.am/simple/mongodb.svg?size=50&color=9ca3af",
   },
+  {
+    name: "Redis",
+    image:
+      "https://icongr.am/simple/redis.svg?size=50&color=9ca3af",
+  },
+  {
+    name: "Jest",
+    image:
+      "https://icongr.am/simple/jest.svg?size=50&color=9ca3af",
+  },
+
 ];
