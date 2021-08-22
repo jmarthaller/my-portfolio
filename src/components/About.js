@@ -15,8 +15,8 @@ export function About() {
           I love writing software because it allows me to express myself  creatively while solving hard problems.
           <br />
           <br />
-          Before web development I worked in legal services, where I narrowly avoided becoming an attorney.
-          When I'm not progamming I'm usually writing on Medium, surfing, or cooking French haute cuisine (read: lots of butter).
+          Before getting into web development I worked in legal services, where I narrowly avoided becoming an attorney.
+          When I'm not progamming I'm usually writing on Medium, surfing, or cooking something French (read: lots of butter).
           </p>
           <div className="flex justify-center">
             <a
