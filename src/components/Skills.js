@@ -22,7 +22,7 @@ export function Skills() {
                       src={tech.image}
                     />
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                      <h1 className="title-font text-lg font-medium text-white mb-3">
+                      <h1 className="title-font text-sm font-normal text-white mb-3">
                         {tech.name}
                       </h1>
                     </div>
