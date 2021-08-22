@@ -12,7 +12,7 @@ export function Skills() {
             <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
               Skills &amp; Technologies
             </h1>
-            <div className="flex flex-wrap -m-4 mt-4">
+            <div className="flex flex-wrap -m-4 mt-4 justify-center">
               {technologies.map((tech) => (
                 <a key={tech.image} className="w-40 p-4">
                   <div className="flex relative">
