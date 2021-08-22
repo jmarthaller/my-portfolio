@@ -12,7 +12,7 @@ export function About() {
           </h1>
           <p className="mb-8 leading-relaxed">
           I'm a Full Stack Software Engineer working primarily in JavaScript, React.js, and Ruby on Rails. 
-          I love writing software because it allows me to express myself  creatively while solving hard problems.
+          I love creating software because it allows me to express myself  creatively while solving hard problems.
           <br />
           <br />
           Before getting into web development I worked in legal services, where I narrowly avoided becoming an attorney.
@@ -33,7 +33,7 @@ export function About() {
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
-            className="shadow object-cover object-center w-90 h-100 rounded-3xl filter brightness-75"
+            className="object-cover object-center w-90 h-100 rounded-3xl filter brightness-75 .shadow-2xl"
             alt="profile-pic"
             src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Jacobjacob.jpg"
           />
