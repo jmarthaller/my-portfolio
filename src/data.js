@@ -19,17 +19,17 @@ export const projects = [
     title: "YouTravel",
     subtitle: "Vanilla JavaScript and Ruby on Rails",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A YouTube-inspired video application that allows users to preview vacation destinations by watching videos detailing major global cities",
     image: "youtravel.png",
     link: "https://youtravel.netlify.app/",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "HomeFIT",
+    subtitle: "Ruby",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "Link here",
+      "A command-line Ruby application that facilitates at-home workouts by randomly selecting body weight exercises",
+    image: "homefit.png",
+    link: "https://github.com/maifam/ruby-project-alt-guidelines",
   },
   
 ];
