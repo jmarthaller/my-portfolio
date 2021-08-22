@@ -1,27 +1,27 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Putrid Potatoes",
+    subtitle: "React and Ruby on Rails",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "Link here",
+      "A LetterBoxd clone that allows users to log the films they've watched, write reviews of those films, and interact with other users on the platform",
+    image: "./putridpotatoes.png",  
+    link: "https://putridpotatoes.netlify.app/",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Polenta To Go Around",
+    subtitle: "React and Ruby on Rails",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "Link here",
+      "A website designed to fight food waste by linking users with restaraunts seeking to sell discounted food that would otherwise be discarded",
+    image: "./polentatogoaround.png",
+    link: "https://polenta-to-go-around.netlify.app/",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "YouTravel",
+    subtitle: "Vanilla JavaScript and Ruby on Rails",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "Link here",
+    image: "youtravel.png",
+    link: "https://youtravel.netlify.app/",
   },
   {
     title: "Epic Todo App",
@@ -31,4 +31,5 @@ export const projects = [
     image: "./project-4.gif",
     link: "Link here",
   },
+  
 ];

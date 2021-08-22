@@ -12,9 +12,8 @@ export  function Projects() {
             Things I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            Source code for all projects can be found on <br /> 
+            <a href="https://github.com/jmarthaller" className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg mt-3">GitHub</a>
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -27,7 +26,7 @@ export  function Projects() {
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="https://www.google.com/search?q=cat&sxsrf=ALeKk02MHF28nTpWbtMpcKADnScqJVxISQ:1629468417099&tbm=isch&source=iu&ictx=1&fir=rhaDRoK406Z9TM%252Cht29CcN2-zkCmM%252C_&vet=1&usg=AI4_-kTugRG5G2vts4rvVCBUEiIAoP78Xw&sa=X&ved=2ahUKEwibxLHx4r_yAhVUHs0KHQ52C0EQ_h16BAh4EAE#imgrc=rhaDRoK406Z9TM"
+                  src={project.image}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
