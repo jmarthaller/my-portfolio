@@ -15,7 +15,7 @@ export function About() {
           </h1>
           <p className="mb-8 leading-relaxed">
             I'm a Full Stack Software Engineer working primarily in JavaScript,
-            React, and Ruby on Rails. I love making software because it
+            React, and Ruby on Rails. I make software because it
             allows me to solve hard problems while expressing myself creatively.
             <br />
             <br />
