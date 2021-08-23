@@ -35,6 +35,18 @@ export function Footer() {
             />
           </a>
           <a
+            href="https://twitter.com/jmartNYC"
+            className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none rounded text-base mt-2 md:mt-0"
+          >
+            <img
+              align="left"
+              alt="twitter-logo"
+              src="https://icongr.am/simple/twitter.svg?size=128&color=9099a5"
+              height="30"
+              width="30"
+            />
+          </a>
+          <a
             href="https://marthaller-jr.medium.com/"
             className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none rounded text-base mt-2 md:mt-0"
           >
