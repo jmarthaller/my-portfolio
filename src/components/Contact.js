@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 
 export function Contact() {
@@ -23,9 +22,9 @@ export function Contact() {
     })
       .then(() => console.log("Message sent!"))
       .catch((error) => alert(error));
-      setName("")
-      setEmail("")
-      setMessage("")
+    setName("");
+    setEmail("");
+    setMessage("");
   }
 
   return (
@@ -48,10 +47,7 @@ export function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
               </h2>
-              <p className="mt-1">
-                Orange County,
-                California
-              </p>
+              <p className="mt-1">Orange County, California</p>
             </div>
             <div className="w-1/3 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
