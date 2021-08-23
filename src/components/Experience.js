@@ -1,9 +1,9 @@
-import { experience } from '../experience';
+import { experience } from "../experience";
 import React from "react";
 
 export function Experience() {
   return (
-    <section className="bg-white dark:bg-gray-800">
+    <section id="experience" className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
         <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
           Experience
@@ -11,7 +11,6 @@ export function Experience() {
       </div>
       <div className="bg-[#F1F1F1] dark:bg-gray-900 -mt-4">
         <div className="grid grid-cols-1 dark:bg-gray-900 max-w-xl mx-auto pt-20">
-
           {experience.map((exp, idx) => (
             <div>
               <ExperienceCard
