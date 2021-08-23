@@ -5,7 +5,7 @@ export function Footer() {
     <div className="bg-gray-800">
       <div className="container static mx-auto flex flex-wrap p-7 flex-col md:flex-row items-center">
         <div className="-mr-5 text-xs text-gray-400">
-          <h5>COPYRIGHT © 2021 JACOB MARTHALLER | ALL RIGHTS RESERVED</h5>
+          <h5>© mmxxi jacob marthaller</h5>
         </div>
         <div className="absolute right-10">
           <a
