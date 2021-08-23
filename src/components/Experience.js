@@ -24,8 +24,8 @@ export function Experience() {
               />
               {idx === experience.length - 1 ? null : (
                 <div className="divider-container flex flex-col items-center -mt-2">
-                  <div className="w-4 h-4 bg-green-500 rounded-full relative z-10">
-                    <div className="w-4 h-4 bg-green-500 rounded-full relative z-10 animate-ping"></div>
+                  <div className="w-4 h-4 bg-green-500 rounded-full relative z-0">
+                    <div className="w-4 h-4 bg-green-500 rounded-full relative z-0 animate-ping"></div>
                   </div>
                   <div className="w-1 h-24 bg-gray-200 dark:bg-gray-500 rounded-full -mt-2"></div>
                 </div>
@@ -40,7 +40,7 @@ export function Experience() {
 
 const ExperienceCard = ({ title, desc, year, company, companyLink }) => {
   return (
-    <div className="relative experience-card border p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 z-10 mx-4">
+    <div className="relative experience-card border p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 z-0 mx-4">
       <h1 className="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-gray-200 font-bold dark:text-gray-800">
         {year}
       </h1>
