@@ -8,17 +8,15 @@ import { Footer } from "./components/Footer";
 import { Skills } from "./components/Skills";
 
 export default function App() {
-  
-
   return (
-     <main className="text-gray-400 bg-gray-900 body-font">
-        <NavBar />
-        <About />
-        <Projects />
-        <Experience />
-        <Skills /> 
-        <Contact />
-        <Footer />
-     </main>
-    );
+    <main className="text-gray-400 bg-gray-900 body-font">
+      <NavBar />
+      <About />
+      <Projects />
+      <Experience />
+      <Skills />
+      <Contact />
+      <Footer />
+    </main>
+  );
 }
