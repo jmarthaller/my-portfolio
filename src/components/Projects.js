@@ -4,8 +4,9 @@ import { projects } from "../data";
 
 export function Projects() {
   return (
-    <section id="projects" className="text-gray-400 bg-gray-900 body-font">
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+    <section id="projects">
+      <div className="container px-5 py-10 mx-auto text-center lg:px-40 text-gray-400 bg-gray-900 body-font">
+      <div className="container px-5 py-10 mx-auto">
         <div className="flex flex-col w-full mb-20">
           <TerminalIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
@@ -46,6 +47,7 @@ export function Projects() {
               </div>
             </a>
           ))}
+        </div>
         </div>
       </div>
     </section>
