@@ -16,7 +16,7 @@ export function Projects() {
             Source code for all projects can be found on <br />
             <a
               href="https://github.com/jmarthaller"
-              className="inline-flex text-white bg-green-700 border-0 py-2 px-6 focus:outline-none hover:bg-green-800 rounded text-lg mt-3"
+              className="inline-flex text-white bg-letterboxd border-0 py-2 px-6 focus:outline-none hover:bg-letterboxd-hover rounded text-lg mt-3"
             >
               GitHub
             </a>
@@ -35,7 +35,7 @@ export function Projects() {
                   className="absolute inset-0 w-full h-full object-cover h-48 w-full object-fill"
                   src={project.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-letterboxd-outline bg-gray-900 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     {project.subtitle}
                   </h2>
