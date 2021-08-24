@@ -22,7 +22,7 @@ export function Contact() {
     })
       .then(() => console.log("Message sent!"))
       .catch((error) => alert(error));
-    e.target.reset
+    e.target.reset();
     setName("");
     setEmail("");
     setMessage("");
