@@ -1,27 +1,46 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 
 export function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  function encode(data) {
-    return Object.keys(data)
-      .map(
-        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-      )
-      .join("&");
-  }
+  // function encode(data) {
+  //   return Object.keys(data)
+  //     .map(
+  //       (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+  //     )
+  //     .join("&");
+  // }
 
-  function handleSubmit(e) {
+  // function handleSubmit(e) {
+  //   e.preventDefault();
+  //   fetch("/", {
+  //     method: "POST",
+  //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
+  //     body: encode({ "form-name": "contact", name, email, message }),
+  //   })
+  //     .then(() => console.log("Message sent!"))
+  //     .catch((error) => alert(error));
+  //   e.target.reset();
+  // }
+
+  async function handleSubmit(e) {
     e.preventDefault();
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", name, email, message }),
-    })
-      .then(() => console.log("Message sent!"))
-      .catch((error) => alert(error));
+
+    const templateParams = {
+      name: name,
+      email: email,
+      message: message,
+    };
+
+    emailjs.send(
+      "service_6h7flyt",
+      "contact_form",
+      templateParams,
+      "user_OgPNXecgtK66tUJbljrqL"
+    );
     e.target.reset();
   }
 
@@ -64,7 +83,7 @@ export function Contact() {
         <form
           netlify
           name="contact"
-          onSubmit={handleSubmit}
+          onSubmit={(e) => handleSubmit(e)}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >
           <h2 className="inline-flex text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
