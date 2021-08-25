@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { MailIcon } from "@heroicons/react/solid";
 import emailjs from "emailjs-com";
 
 export function Contact() {
@@ -68,7 +69,7 @@ export function Contact() {
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >
           <h2 className="inline-flex text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-            Get In Touch
+            Get In Touch <span><MailIcon className="w-10 inline-block ml-4 mb-1 text-gray-400" /></span>
           </h2>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
