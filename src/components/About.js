@@ -15,13 +15,36 @@ export function About() {
           </h1>
           <p className="mb-8 leading-relaxed">
             I'm a Full Stack Software Engineer working primarily in JavaScript,
-            React, and Ruby on Rails. I make software because it
-            allows me to solve hard problems while expressing myself creatively.
+            React, and Ruby on Rails. I make software because it allows me to
+            solve hard problems while expressing myself creatively.
             <br />
             <br />
             Before getting into web development I worked in legal services,
             where I narrowly avoided becoming an attorney. When I'm not
-            progamming I'm usually writing on Medium, surfing, or cooking
+            progamming I'm usually{" "}
+            <span
+              role="img"
+              aria-label="ballpoint pen emjoi"
+              style={{ "font-size": "30px" }}
+            >
+              &#128395;
+            </span>{" "}
+            on Medium,{" "}
+            <span
+              role="img"
+              aria-label="surfing emjoi"
+              style={{ "font-size": "35px" }}
+            >
+              &#127940;
+            </span>
+            , or{" "}
+            <span
+              role="img"
+              aria-label="chef emjoi"
+              style={{ "font-size": "35px", "margin-right": "7px" }}
+            >
+              👨‍🍳
+            </span>
             something French (read: lots of butter).
           </p>
           <div className="flex justify-center">
