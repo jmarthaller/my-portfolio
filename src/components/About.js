@@ -25,7 +25,7 @@ export function About() {
             <span
               role="img"
               aria-label="ballpoint pen emjoi"
-              style={{ "font-size": "30px" }}
+              style={{ "font-size": "30px", "margin-left": "5px" }}
             >
               &#128395;
             </span>{" "}
