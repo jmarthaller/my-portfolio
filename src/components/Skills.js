@@ -1,5 +1,5 @@
-import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
+import { CodeIcon } from "@heroicons/react/solid";
 import { technologies } from "../technologies";
 
 export function Skills() {
