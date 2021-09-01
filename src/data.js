@@ -20,7 +20,7 @@ export const projects = [
     subtitle: "Vanilla JavaScript and Ruby on Rails",
     description:
       "A YouTube-inspired video application that allows users to preview vacation destinations by watching videos detailing major global cities",
-    image: "youtravel.png",
+    image: "yt-login.gif",
     link: "https://youtravel.netlify.app/",
   },
   {
