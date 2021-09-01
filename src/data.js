@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "React and Ruby on Rails",
     description:
       "A website designed to fight food waste by linking users with restaraunts seeking to sell discounted food that would otherwise be discarded",
-    image: "./polentatogoaround.png",
+    image: "polenta-favorite.gif",
     link: "https://polenta-to-go-around.netlify.app/",
   },
   {
