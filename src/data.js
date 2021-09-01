@@ -28,7 +28,7 @@ export const projects = [
     subtitle: "Ruby",
     description:
       "A command-line Ruby application that facilitates workouts by randomly selecting body weight exercises for the user to perform at home",
-    image: "homefit2.png",
+    image: "command_line.gif",
     link: "https://github.com/maifam/ruby-project-alt-guidelines",
   },
 ];
