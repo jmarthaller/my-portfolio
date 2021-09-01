@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "React and Ruby on Rails",
     description:
       "A LetterBoxd clone that allows users to log the films they've watched, write reviews of those films, and interact with other users on the platform",
-    image: "./putridpotatoes.png",  
+    image: "login-potato.gif",  
     link: "https://putridpotatoes.netlify.app/",
   },
   {
