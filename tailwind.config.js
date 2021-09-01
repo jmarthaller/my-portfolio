@@ -7,7 +7,23 @@ module.exports = {
         'letterboxd': '#00C02F',
         'letterboxd-hover': '#03A11C',
         'letterboxd-outline': '#03C74D',
-      }
+      },
+      animation: {
+        wiggle: 'wiggle 1s ease-in-out',
+      },
+      keyframes: {
+        wiggle: {
+          '0%, 100%': {
+            transform: 'rotate(0deg)',
+          },
+          '25%': {
+            transform: 'rotate(-30deg)',
+          },
+          '74%': {
+            transform: 'rotate(30deg)',
+          },
+        },
+      },
     },
   },
   variants: {
