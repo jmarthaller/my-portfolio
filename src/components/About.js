@@ -25,7 +25,7 @@ export function About() {
             <span
               role="img"
               aria-label="ballpoint pen emjoi"
-              style={{ "font-size": "30px", "margin-left": "5px" }}
+              style={{ "font-size": "25px", "margin-left": "5px" }}
             >
               &#128395;
             </span>{" "}
@@ -33,7 +33,7 @@ export function About() {
             <span
               role="img"
               aria-label="surfing emjoi"
-              style={{ "font-size": "35px" }}
+              style={{ "font-size": "30px" }}
             >
               &#127940;
             </span>
@@ -41,7 +41,7 @@ export function About() {
             <span
               role="img"
               aria-label="chef emjoi"
-              style={{ "font-size": "35px", "margin-right": "7px" }}
+              style={{ "font-size": "30px", "margin-right": "7px" }}
             >
               👨‍🍳
             </span>
