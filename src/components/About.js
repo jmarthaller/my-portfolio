@@ -13,7 +13,7 @@ export function About() {
             <br className="hidden lg:inline-block" />I love to build amazing
             software
           </h1>
-          <p className="mb-8 leading-relaxed">
+          <p className="mb-6 leading-relaxed">
             I'm a Full Stack Software Engineer working primarily in JavaScript,
             React, and Ruby on Rails. I make software because it allows me to
             solve hard problems while expressing myself creatively.
@@ -47,64 +47,56 @@ export function About() {
             </span>
             something French (read: lots of butter).
           </p>
-          {/* start here */}
-          <div className="flex justify-center">
-          <a
-            href="https://www.linkedin.com/in/jacob-marthaller/"
-            className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none rounded text-base mt-2 md:mt-0"
-          >
-            <img
-              align="left"
-              alt="linkedin-logo"
-              src="https://icongr.am/fontawesome/linkedin-square.svg?size=128&color=9099a5"
-              height="30"
-              width="30"
-            />
-          </a>
-          <a
-            href="https://github.com/jmarthaller"
-            className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none rounded text-base mt-2 md:mt-0"
-          >
-            <img
-              align="left"
-              alt="github-logo"
-              src="https://icongr.am/fontawesome/github.svg?size=128&color=9099a5"
-              height="30"
-              width="30"
-            />
-          </a>
-          <a
-            href="https://twitter.com/jmartNYC"
-            className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none rounded text-base mt-2 md:mt-0"
-          >
-            <img
-              align="left"
-              alt="twitter-logo"
-              src="https://icongr.am/simple/twitter.svg?size=128&color=9099a5"
-              height="30"
-              width="30"
-            />
-          </a>
-          <a
-            href="https://marthaller-jr.medium.com/"
-            className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none rounded text-base mt-2 md:mt-0"
-          >
-            <img
-              align="left"
-              alt="medium-logo"
-              src="https://icongr.am/fontawesome/medium.svg?size=128&color=9099a5"
-              height="30"
-              width="30"
-            />
-          </a>
-
-
+          <div className="flex justify-center mb-8">
+            <a
+              href="https://www.linkedin.com/in/jacob-marthaller/"
+              className="inline-flex items-center bg-gray-900 border-0 py-1 px-3 focus:outline-none rounded text-base mt-2 md:mt-0"
+            >
+              <img
+                align="left"
+                alt="linkedin-logo"
+                src="https://icongr.am/fontawesome/linkedin-square.svg?size=128&color=9099a5"
+                height="30"
+                width="30"
+              />
+            </a>
+            <a
+              href="https://github.com/jmarthaller"
+              className="inline-flex items-center bg-gray-900 border-0 py-1 px-3 focus:outline-none rounded text-base mt-2 md:mt-0"
+            >
+              <img
+                align="left"
+                alt="github-logo"
+                src="https://icongr.am/fontawesome/github.svg?size=128&color=9099a5"
+                height="30"
+                width="30"
+              />
+            </a>
+            <a
+              href="https://twitter.com/jmartNYC"
+              className="inline-flex items-center bg-gray-900 border-0 py-1 px-3 focus:outline-none rounded text-base mt-2 md:mt-0"
+            >
+              <img
+                align="left"
+                alt="twitter-logo"
+                src="https://icongr.am/simple/twitter.svg?size=128&color=9099a5"
+                height="30"
+                width="30"
+              />
+            </a>
+            <a
+              href="https://marthaller-jr.medium.com/"
+              className="inline-flex items-center bg-gray-900 border-0 py-1 px-3 focus:outline-none rounded text-base mt-2 md:mt-0"
+            >
+              <img
+                align="left"
+                alt="medium-logo"
+                src="https://icongr.am/fontawesome/medium.svg?size=128&color=9099a5"
+                height="30"
+                width="30"
+              />
+            </a>
           </div>
-
-
-
-
-        {/* end here */}
           <div className="flex justify-center">
             <a
               href="#contact"
