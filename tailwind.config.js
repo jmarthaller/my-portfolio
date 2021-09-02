@@ -7,6 +7,8 @@ module.exports = {
         'letterboxd': '#00C02F',
         'letterboxd-hover': '#03A11C',
         'letterboxd-outline': '#03C74D',
+        'twitter-blue': '#1DA1F2',
+        'twitter-blue-hover': '#0b7bc1',
       },
       animation: {
         wiggle: 'wiggle 1s ease-in-out',
