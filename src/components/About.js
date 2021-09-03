@@ -41,7 +41,7 @@ export function About() {
             <span
               role="img"
               aria-label="chef emjoi"
-              style={{ "font-size": "25px", "margin-right": "7px" }}
+              style={{ "font-size": "24px", "margin-right": "7px" }}
             >
               👨‍🍳
             </span>
