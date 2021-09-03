@@ -33,7 +33,7 @@ export function About() {
             <span
               role="img"
               aria-label="surfing emjoi"
-              style={{ "font-size": "30px" }}
+              style={{ "font-size": "25px" }}
             >
               &#127940;
             </span>
@@ -41,7 +41,7 @@ export function About() {
             <span
               role="img"
               aria-label="chef emjoi"
-              style={{ "font-size": "30px", "margin-right": "7px" }}
+              style={{ "font-size": "25px", "margin-right": "7px" }}
             >
               👨‍🍳
             </span>
