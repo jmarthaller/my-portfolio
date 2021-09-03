@@ -19,7 +19,7 @@ export function About() {
             solve hard problems while expressing myself creatively.
             <br />
             <br />
-            Before getting into web development I worked in legal services,
+            Before getting into web development I was a court reporter,
             where I narrowly avoided becoming an attorney. When I'm not
             progamming I'm usually{" "}
             <span
