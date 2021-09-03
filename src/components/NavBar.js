@@ -4,7 +4,7 @@ import resume from "../resume.pdf";
 
 export function NavBar() {
   return (
-    <header className="bg-gray-800 md:sticky top-0 z-10">
+    <header className="bg-gray-800 md:sticky top-0 z-40">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="title-font font-medium text-white mb-4 md:mb-0">
           <a href="" className="ml-3 text-xl">
