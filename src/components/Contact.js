@@ -9,13 +9,11 @@ export function Contact() {
 
   async function handleSubmit(e) {
     e.preventDefault();
-
     const templateParams = {
       name: name,
       email: email,
       message: message,
     };
-
     emailjs.send(
       "service_6h7flyt",
       "contact_form",
