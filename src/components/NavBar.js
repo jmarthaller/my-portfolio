@@ -31,7 +31,7 @@ export function NavBar() {
         
         <a
           href={resume} target="_blank"
-          className="inline-flex items-center bg-gray-700 border-0 py-1 px-3 focus:outline-none hover:bg-gray-600 rounded text-base mt-4 md:mt-0"
+          className="inline-flex items-center bg-gray-700 border-0 py-1 px-3 focus:outline-none hover:bg-gray-600 transition delay-100 duration-300 ease-in-out rounded text-base mt-4 md:mt-0"
         >
           Resume
           <BriefcaseIcon className="w-4 h-4 ml-1" />

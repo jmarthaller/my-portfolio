@@ -16,7 +16,7 @@ export function Projects() {
               Source code for all projects can be found on <br />
               <a
                 href="https://github.com/jmarthaller"
-                className="inline-flex text-white bg-letterboxd border-0 py-2 px-6 focus:outline-none hover:bg-letterboxd-hover rounded text-lg mt-3"
+                className="inline-flex text-white bg-letterboxd border-0 py-2 px-6 focus:outline-none hover:bg-letterboxd-hover transition delay-100 duration-300 ease-in-out rounded text-lg mt-3"
               >
                 GitHub
               </a>
