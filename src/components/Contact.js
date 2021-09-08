@@ -1,27 +1,27 @@
 import React, { useState } from "react";
 import { MailIcon } from "@heroicons/react/solid";
-import emailjs from "emailjs-com";
+// import emailjs from "emailjs-com";
 
 export function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  async function handleSubmit(e) {
-    e.preventDefault();
-    const templateParams = {
-      name: name,
-      email: email,
-      message: message,
-    };
-    emailjs.send(
-      "service_6h7flyt",
-      "contact_form",
-      templateParams,
-      "user_OgPNXecgtK66tUJbljrqL"
-    );
-    e.target.reset();
-  }
+  // async function handleSubmit(e) {
+  //   e.preventDefault();
+  //   const templateParams = {
+  //     name: name,
+  //     email: email,
+  //     message: message,
+  //   };
+  //   emailjs.send(
+  //     "service_6h7flyt",
+  //     "contact_form",
+  //     templateParams,
+  //     "user_OgPNXecgtK66tUJbljrqL"
+  //   );
+  //   e.target.reset();
+  // }
 
   return (
     <section id="contact" className="relative">
