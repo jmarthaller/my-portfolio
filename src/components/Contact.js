@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { MailIcon } from "@heroicons/react/solid";
-// import emailjs from "emailjs-com";
+import emailjs from "emailjs-com";
 
 export function Contact() {
   const [name, setName] = useState("");
@@ -14,13 +14,12 @@ export function Contact() {
       email: email,
       message: message,
     };
-    // emailjs.send(
-    //   "service_6h7flyt",
-    //   "contact_form",
-    //   templateParams,
-    //   "user_OgPNXecgtK66tUJbljrqL"
-    // );
-    console.log("hi")
+    emailjs.send(
+      "service_6h7flyt",
+      "contact_form",
+      templateParams,
+      "user_OgPNXecgtK66tUJbljrqL"
+    );
     e.target.reset();
   }
 
