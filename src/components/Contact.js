@@ -7,21 +7,22 @@ export function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  // async function handleSubmit(e) {
-  //   e.preventDefault();
-  //   const templateParams = {
-  //     name: name,
-  //     email: email,
-  //     message: message,
-  //   };
-  //   emailjs.send(
-  //     "service_6h7flyt",
-  //     "contact_form",
-  //     templateParams,
-  //     "user_OgPNXecgtK66tUJbljrqL"
-  //   );
-  //   e.target.reset();
-  // }
+  async function handleSubmit(e) {
+    e.preventDefault();
+    // const templateParams = {
+    //   name: name,
+    //   email: email,
+    //   message: message,
+    // };
+    // emailjs.send(
+    //   "service_6h7flyt",
+    //   "contact_form",
+    //   templateParams,
+    //   "user_OgPNXecgtK66tUJbljrqL"
+    // );
+    console.log("hi")
+    e.target.reset();
+  }
 
   return (
     <section id="contact" className="relative">
