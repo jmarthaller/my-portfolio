@@ -110,7 +110,7 @@ export function Contact() {
           </div>
           <button
             type="submit"
-            className="text-white bg-twitter-blue border-0 py-2 px-6 focus:outline-none hover:bg-twitter-blue-hover transition delay-100 duration-300 ease-in-out rounded text-lg"
+            className="text-white bg-twitter-blue border-0 py-2 px-6 focus:outline-none hover:bg-twitter-blue-hover transition delay-100 duration-200 ease-in-out rounded text-lg"
           >
             Send
           </button>
