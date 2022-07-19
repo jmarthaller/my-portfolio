@@ -2,7 +2,7 @@ export const experience = [
   {
     title: "Software Engineer",
     company: "Olive AI",
-    year: "Sep 2021-Present",
+    year: "Sep 21-Present",
     companyLink: "https://oliveai.com/",
     desc: "Built internal applications to enhance the productivity of Olive’s automation engineers | Designed web and API-based automations in TypeScript to process thousands of patients’ insurance coverage daily | Developed a React desktop application to streamline electronic health record documentation",
   },
@@ -18,7 +18,7 @@ export const experience = [
     company: "Neal R. Gross & Co, Inc.",
     year: "2016-2020",
     companyLink: "http://nealrgross.com/",
-    desc: "Designed FOIA request-response pipeline to optimize bid success rate by 25% | Recorded and transcribed 300+ criminal and civil legal proceedings | Drafted policy-driven technical reports",
+    desc: "Designed FOIA request and response pipeline to optimize bid success rate by 25% | Recorded and transcribed 300+ criminal and civil legal proceedings | Drafted policy-driven technical reports",
   },
   {
     title: "Chief Operations Officer",
