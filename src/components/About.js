@@ -115,7 +115,7 @@ export function About() {
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
             className="object-cover object-center w-90 h-100 rounded-3xl filter brightness-75 .shadow-2xl animate-wiggle"
-            alt="profile-pic"
+            alt="profile-picture"
             src="https://upload.wikimedia.org/wikipedia/commons/2/29/Jacobpersonalphoto.jpg"
           />
         </div>
