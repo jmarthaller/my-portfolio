@@ -1,8 +1,15 @@
 export const experience = [
   {
     title: "Software Engineer",
+    company: "Olive AI",
+    year: "Spetember 2021-Present",
+    companyLink: "https://oliveai.com/",
+    desc: "Built internal applications to enhance the productivity of Olive’s automation engineers | Designed web and API-based automations in TypeScript to process thousands of patients’ insurance coverage daily | Developed a React desktop application to streamline electronic health record documentation",
+  },
+  {
+    title: "Software Engineer",
     company: "Hearth.io",
-    year: "2021-Present",
+    year: "March 2021-September 2021",
     companyLink: "https://hearth.io/",
     desc: "Refactored multiple pages using TypeScript | Leveraged GraphQL to describe and fetch data throughout application | Enhanced mobile web experience by making several pages mobile-responsive | Conducted market research with potential users",
   },
@@ -12,13 +19,6 @@ export const experience = [
     year: "2016-2020",
     companyLink: "http://nealrgross.com/",
     desc: "Designed FOIA request-response pipeline to optimize bid success rate by 25% | Recorded and transcribed 300+ criminal and civil legal proceedings | Drafted policy-driven technical reports",
-  },
-  {
-    title: "Research Assistant",
-    company: "University of Virginia",
-    year: "2013-2015",
-    companyLink: "https://religiousstudies.as.virginia.edu/",
-    desc: "Taught the Virginia Center for the Study of Religion’s Religion and Film seminar | Coordinated monthly meetings for the Law Religion, Pluralism, and Secularism Project",
   },
   {
     title: "Chief Operations Officer",
