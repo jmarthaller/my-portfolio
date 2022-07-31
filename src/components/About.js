@@ -14,9 +14,8 @@ export function About() {
             software
           </h1>
           <p className="mb-6 leading-relaxed">
-            I'm a Full Stack Software Engineer working primarily in JavaScript,
-            React, and Ruby on Rails. I make software because it allows me to
-            solve hard problems while expressing myself creatively.
+            I'm a Full Stack Software Engineer working primarily in TypeScript,
+            React, and Ruby on Rails. I love building software that solves complex problems
             <br />
             <br />
             Before getting into web development I was a court reporter,
