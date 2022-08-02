@@ -11,7 +11,7 @@ module.exports = {
         'twitter-blue-hover': '#0b7bc1',
       },
       animation: {
-        wiggle: 'wiggle 1s ease-in-out',
+        wiggle: 'wiggle 2s ease-in-out',
       },
       keyframes: {
         wiggle: {
