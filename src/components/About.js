@@ -44,7 +44,7 @@ export function About() {
             >
               👨‍🍳
             </span>
-            something French (read: lots of butter).
+            something French
           </p>
           <div className="flex justify-center mb-8">
             <a
