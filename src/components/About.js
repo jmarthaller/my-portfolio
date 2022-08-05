@@ -15,7 +15,7 @@ export function About() {
           </h1>
           <p className="mb-6 leading-relaxed">
             I'm a Full Stack Software Engineer working primarily in TypeScript,
-            React, and Ruby on Rails. I love building software that solves complex problems
+            React, and Ruby on Rails. I love building software that solves hard problems
             <br />
             <br />
             Before getting into web development I was a court reporter,
