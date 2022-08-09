@@ -18,9 +18,9 @@ export function About() {
             React, and Ruby on Rails. I love building software that solves hard problems
             <br />
             <br />
-            Before getting into web development I was a court reporter,
+            Before getting into programming I was a court reporter,
             where I narrowly avoided becoming an attorney. When I'm not
-            progamming I'm usually{" "}
+            writing code I'm usually{" "}
             <span
               role="img"
               aria-label="ballpoint pen emjoi"
