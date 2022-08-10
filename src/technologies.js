@@ -29,7 +29,7 @@ export const technologies = [
     image: "https://icongr.am/devicon/ruby-plain.svg?size=50&color=9ca3af",
   },
   {
-    name: "Rails",
+    name: "Ruby on Rails",
     image: "https://icongr.am/devicon/rails-plain.svg?size=50&color=9ca3af",
   },
   {
