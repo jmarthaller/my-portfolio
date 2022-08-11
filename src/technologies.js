@@ -21,7 +21,7 @@ export const technologies = [
     image: "https://icongr.am/simple/typescript.svg?size=50&color=9ca3af",
   },
   {
-    name: "Node",
+    name: "Node.js",
     image: "https://icongr.am/devicon/nodejs-plain.svg?size=50&color=9ca3af",
   },
   {
