@@ -1,6 +1,6 @@
-// import React from "react";
+import React from "react";
 
-// export function About() {
+export function About() {
 //   return (
 //     <section id="about">
 //       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center mb-28">
@@ -121,4 +121,4 @@
 //       </div>
 //     </section>
 //   );
-// }
+}
