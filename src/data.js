@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "Sleuth Files",
+    subtitle: "React + TypeScript, Node.js",
+    description:
+      "A Reddit-inspired communication app that allows users to share information about real-life true crime events",
+    image: "sleuth_files.png",  
+    link: "https://github.com/nselvidge/case-files",
+  },
+  {
     title: "Putrid Potatoes",
     subtitle: "React and Ruby on Rails",
     description:
