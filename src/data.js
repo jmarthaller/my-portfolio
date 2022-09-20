@@ -20,7 +20,7 @@ export const projects = [
     subtitle: "React + TypeScript, Node.js",
     description:
       "A site to aggregate predictive data to forecast the likelihood of human-shark interaction off the coast of California's most popular beaches",
-    image: "sleuth_files.png",  
+    image: "finteck-mock.png",  
     link: "https://github.com/jmarthaller/finteck",
   },
   {
