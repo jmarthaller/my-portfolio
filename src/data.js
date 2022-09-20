@@ -16,6 +16,14 @@ export const projects = [
     link: "https://putridpotatoes.netlify.app/",
   },
   {
+    title: "FinTeck",
+    subtitle: "React + TypeScript, Node.js",
+    description:
+      "A site to aggregate predictive data to forecast the likelihood of human-shark interaction off the coast of California's most popular beaches",
+    image: "sleuth_files.png",  
+    link: "https://github.com/jmarthaller/finteck",
+  },
+  {
     title: "Polenta To Go Around",
     subtitle: "React and Ruby on Rails",
     description:
