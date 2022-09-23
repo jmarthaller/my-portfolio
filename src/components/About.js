@@ -13,14 +13,15 @@ export function About() {
             <br className="hidden lg:inline-block" />I love to build amazing
             software
           </h1>
-          <p className="mb-6 leading-relaxed">
+          <p className="mb-7 leading-relaxed">
             I'm a Full Stack Software Engineer working primarily in TypeScript,
-            React, and Ruby on Rails. I love building software that solves hard problems
+            React, and Ruby on Rails. I love building software that solves hard
+            problems
             <br />
             <br />
-            Before getting into programming I was a court reporter,
-            where I narrowly avoided becoming an attorney. When I'm not
-            writing code I'm usually{" "}
+            Before getting into programming I was a court reporter, where I
+            narrowly avoided becoming an attorney. When I'm not writing code I'm
+            usually{" "}
             <span
               role="img"
               aria-label="ballpoint pen emjoi"
