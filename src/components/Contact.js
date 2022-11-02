@@ -15,7 +15,7 @@ export function Contact() {
       message: message,
     };
     emailjs.send(
-      "service_6h7flyt",
+      "service_emeb2vk",
       "contact_form",
       templateParams,
       "user_OgPNXecgtK66tUJbljrqL"
