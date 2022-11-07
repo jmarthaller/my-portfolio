@@ -2,14 +2,14 @@ export const experience = [
   {
     title: "Software Engineer",
     company: "Olive AI",
-    year: "September 2021-Present",
+    year: "Sep 2021-Present",
     companyLink: "https://oliveai.com/",
     desc: "Built internal applications to enhance the productivity of Olive’s automation engineers | Designed web and API-based automations in TypeScript to process thousands of patients’ insurance coverage daily | Developed a React desktop application to streamline electronic health record documentation",
   },
   {
     title: "Software Engineer",
     company: "Hearth.io",
-    year: "March 2021-September 2021",
+    year: "Mar 2021-Sep 2021",
     companyLink: "https://hearth.io/",
     desc: "Refactored multiple pages using TypeScript | Leveraged GraphQL to describe and fetch data throughout application | Enhanced mobile web experience by making several pages mobile-responsive | Conducted market research with potential users",
   },
