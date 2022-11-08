@@ -11,7 +11,7 @@ export const experience = [
     company: "Hearth.io",
     year: "Mar 2021-Sep 2021",
     companyLink: "https://hearth.io/",
-    desc: "Refactored multiple components TypeScript | Leveraged GraphQL to describe and fetch data throughout application | Enhanced mobile web experience by making several pages mobile-responsive | Conducted market research with potential users",
+    desc: "Refactored multiple components  | Leveraged GraphQL to describe and fetch data throughout application | Enhanced mobile web experience by making several pages mobile-responsive | Conducted market research with potential users",
   },
   {
     title: "Digital Court Reporter/Technical Writer",
