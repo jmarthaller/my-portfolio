@@ -5,12 +5,12 @@ export const experience = [
     year: "December 2022-Now",
     companyLink: "https://www.costargroup.com/",
     desc:
-      "Built Front-End/Back-End Flow to convert users to paper-based tax documentation | Collaborate with multiple Apartments.com teams to improve the lease renewal flow | Increased documentation for onboarding engineers by 50%",
+      "Built Front-End/Back-End Flow to convert users to paperless tax documentation | Collaborate with multiple Apartments.com teams to improve the lease renewal flow | Increased documentation for onboarding engineers by 50% | Rewrote legacy code in C# to improve performance and readability",
   },
   {
     title: "Software Engineer",
     company: "Olive AI",
-    year: "Sep 2021-Now",
+    year: "Sep 2021-Sep 2022",
     companyLink: "https://oliveai.com/",
     desc:
       "Built internal applications to enhance the productivity of Olive’s automation engineers | Designed web and API-based automations in TypeScript to process thousands of patients’ insurance coverage daily | Developed a React desktop application to streamline electronic health record documentation",
