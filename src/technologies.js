@@ -46,8 +46,8 @@ export const technologies = [
     image: "https://icongr.am/simple/mongodb.svg?size=50&color=9ca3af",
   },
   {
-    name: "Redis",
-    image: "https://icongr.am/simple/redis.svg?size=50&color=9ca3af",
+    name: "C#",
+    image: "https://icongr.am/simple/csharp.svg?size=50&color=9ca3af",
   },
   {
     name: "Docker",
