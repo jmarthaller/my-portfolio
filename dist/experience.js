@@ -8,7 +8,7 @@ exports.experience = [
     year: "December 2022-Now",
     companyLink: "https://www.costargroup.com/",
     desc:
-      "Built Tax Document edelivery | Lease Renewal work | Facilitated documentation efforts",
+      "Built Front-End/Back-End Flow to convert users to paper-based tax documentation | Collaborate with multiple Apartments.com teams to improve the lease renewal flow | Increased documentation for onboarding engineers by 50%",
   },
   {
     title: "Software Engineer",
