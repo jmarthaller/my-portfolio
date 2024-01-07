@@ -1,11 +1,11 @@
 export const experience = [
   {
     title: "Software Engineer",
-    company: "CoStar Group (Apartments.com)",
+    company: "Apartments.com (CoStar Group)",
     year: "December 2022-Now",
     companyLink: "https://www.costargroup.com/",
     desc:
-      "Built Front-End/Back-End Flow to convert users to paperless tax documentation | Collaborate with multiple Apartments.com teams to improve the lease renewal flow | Increased documentation for onboarding engineers by 50% | Rewrote legacy code in C# to improve performance and readability",
+      "Built Front-End/Back-End flow to convert users to paperless tax documentation | Wrote integration specs for payment processing with Stripe | Increased documentation for onboarding engineers by 50% | Rewrote legacy Ruby codebase in C# to improve performance and readability",
   },
   {
     title: "Software Engineer",
