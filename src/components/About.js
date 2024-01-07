@@ -105,7 +105,7 @@ export function About() {
               Work With Me
             </a>
             <a
-              href="#projects"
+              href="#experience"
               className="ml-4 inline-flex text-white bg-indigo-600 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-700 hover:text-white transition delay-100 duration-200 ease-in-out rounded text-lg"
             >
               See My Past Work
