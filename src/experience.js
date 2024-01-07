@@ -30,13 +30,5 @@ export const experience = [
     companyLink: "http://nealrgross.com/",
     desc:
       "Designed FOIA request-response pipeline to optimize bid success rate by 25% | Recorded and transcribed 300+ criminal and civil legal proceedings | Drafted policy-driven technical reports",
-  },
-  {
-    title: "Chief Operations Officer",
-    company: "Taylored Productions",
-    year: "2012-2013",
-    companyLink: "",
-    desc:
-      "Launched a video production company and oversaw operations for over two dozen clients | Implemented accounting procedures that resulted in a budget surplus | Supervised and trained 5 person team of apprentice editors",
-  },
+  }
 ];
